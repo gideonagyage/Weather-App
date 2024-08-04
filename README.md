@@ -12,7 +12,7 @@ This project is part of the Codevixens Frontend Development Challenge (Day 6). A
 - **State Management**: Uses React's `useState` hook to manage the input city, fetched weather data, and error messages.
 - **User Interface**: Provides an input field for city name, a button to fetch weather, and a display area for weather information.
 - **Error Handling**: Handles invalid city names and API errors with appropriate feedback to the user.
-- **Geolocation (In Progress)**: Allows users to fetch weather data based on their current location.
+- **Geolocation**: Allows users to fetch weather data based on their current location.
 - **Weather Icons**: Displays relevant weather icons based on the weather description.
 - **Bootstrap Styling**: Uses Bootstrap for a visually appealing and responsive UI.
 - **Modal Alerts**: Displays alerts in a modal for user feedback.
