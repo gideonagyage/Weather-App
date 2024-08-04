@@ -87,3 +87,9 @@ html {
 .btn-close-pop {
   width: 90px;
 }
+
+@media (max-width: 450px) {
+  #bg-img {
+    background-image: url("./../public/img/sm-img.jpg");
+  }
+}
