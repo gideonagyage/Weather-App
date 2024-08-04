@@ -74,7 +74,7 @@ The `WeatherApp` component is the main component that handles the following:
 
 ## Live Demo
 
-Check out the live demo [here](https://gideon-agyage.web.app/).
+Check out the live demo [here](https://weather-app-seven-murex-31.vercel.app/).
 
 ## Key Concepts
 
