@@ -1,0 +1,89 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: white;
+  overflow: auto;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 255, 0.353);
+  z-index: 2;
+  overflow: auto;
+}
+
+#bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url("./../public/img/lg-img.png");
+}
+
+.card-bg {
+  background-color: #0000806d;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.main-card-bg {
+  background-color: #0000806d;
+  color: white;
+  border-radius: 15px;
+  min-width: 350px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.btn-get-weather {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.btn-get-weather:hover {
+  background-color: white;
+  color: blue;
+}
+
+.btn-get-weather:disabled {
+  cursor: not-allowed;
+}
+
+.btn-use-location {
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.btn-use-location:hover {
+  background-color: white;
+  color: blue;
+}
+
+.txt-white {
+  color: white;
+}
+
+.txt-white:hover {
+  color: rgb(0, 0, 113);
+}
+
+.btn-close-pop {
+  width: 90px;
+}
